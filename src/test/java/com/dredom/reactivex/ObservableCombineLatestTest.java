@@ -17,6 +17,8 @@ public class ObservableCombineLatestTest {
 		int n = 0;
 		out.println(n++ + ". call val1");
 		service.setValue1(true);
+		out.println(n++ + ". call val1");
+		service.setValue1(true);
 		out.println(n++ + ". call val2");
 		service.setValue2("two");
 		out.println(n++ + ". call val2");
